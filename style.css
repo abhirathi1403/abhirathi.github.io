@@ -179,3 +179,7 @@ padding: 10px;
         width: fit-content;
     }
 }
+address p,a
+{
+    color: white;
+}
