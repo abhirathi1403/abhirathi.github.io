@@ -4,7 +4,7 @@
 }
 .nav{
     display: flex;
-    width: 100%;
+    width: 98%;
     margin-top:-14px;
     background-color: black;
     align-items: center;
@@ -18,29 +18,37 @@
 }
 .logo img
 {
-    width: 50px;
-    height: 50px; 
+    margin-top: 10px;
+    margin-left: -24px;
+    width: 35px;
+    height: 35px; 
     border: 3px solid white;
     border-radius: 50px;;
 }
 .leftnav
 {
     display: flex;
-    justify-content: center;
-    
+    justify-content: left;
+    width: 70%;
     
 }
 .leftnav li{
     list-style: none;
     padding: 20px;
+    margin-left: -15px;
+    
 }
 .leftnav li a{
     text-decoration: none;
     color: white;
 }
 .rightnav{
-    width: 30%;
+    width:25%;
+    float: right;
+    height: 100%;
     text-align: right;
+    margin-left: auto;
+    margin-right: auto;
 }
 #search
 {
@@ -167,17 +175,34 @@ padding: 10px;
         background-color: black;
         
     }
-    .nav{
-        width:fit-content;
-    }
-    .sidenav
-    {
-        margin-top: 10px;
-    }
-    .rightnav
-    {
-        width: fit-content;
-    }
+  .nav
+{
+ width: fit-content;  
+}
+.leftnav{
+    width: 75%;
+}
+.leftnav li{
+    margin-left: -33px;
+    font-size: 54%;
+} 
+
+.rightnav
+{
+    width:25%;
+} 
+.leftnav{
+    padding: 3px;
+}    
+ #search
+ {
+     width: 80%;
+ }
+ #searchbut
+ {
+     width: 54%;
+    margin-right: 3px;
+ }
 }
 address p,a
 {
